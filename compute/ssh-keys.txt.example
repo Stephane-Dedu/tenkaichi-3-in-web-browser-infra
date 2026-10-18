@@ -1,0 +1,3 @@
+# One "user:public-key comment" line per key, exactly as in the VM's ssh-keys metadata
+# (gcloud compute instances describe <vm> --format="value(metadata.items.ssh-keys)").
+deploy:ssh-ed25519 AAAA...replace-with-your-public-key deploy
